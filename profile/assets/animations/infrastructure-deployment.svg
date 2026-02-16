@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="156" viewBox="0 0 1100 156" role="img" aria-label="Infrastructure and deployment animation">
+  <title>Infrastructure and Deployment</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="pipe" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#22c55e" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1100" height="156" rx="12" fill="url(#bg)" />
+
+  <rect x="80" y="54" width="180" height="56" rx="9" fill="#0b1220" stroke="#334155" stroke-width="1.1" />
+  <text x="102" y="79" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">Source</text>
+  <text x="102" y="96" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="11">Git + PR Review</text>
+
+  <rect x="330" y="54" width="180" height="56" rx="9" fill="#0b1220" stroke="#334155" stroke-width="1.1" />
+  <text x="352" y="79" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">CI Pipeline</text>
+  <text x="352" y="96" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="11">Build + Test + Scan</text>
+
+  <rect x="580" y="54" width="180" height="56" rx="9" fill="#0b1220" stroke="#334155" stroke-width="1.1" />
+  <text x="602" y="79" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">Container</text>
+  <text x="602" y="96" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="11">Docker Runtime</text>
+
+  <rect x="830" y="54" width="190" height="56" rx="9" fill="#0b1220" stroke="#334155" stroke-width="1.1" />
+  <text x="852" y="79" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">Cloud Runtime</text>
+  <text x="852" y="96" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="11">AWS + VPS Deployment</text>
+
+  <line x1="260" y1="82" x2="330" y2="82" stroke="url(#pipe)" stroke-width="3" stroke-linecap="round" />
+  <line x1="510" y1="82" x2="580" y2="82" stroke="url(#pipe)" stroke-width="3" stroke-linecap="round" />
+  <line x1="760" y1="82" x2="830" y2="82" stroke="url(#pipe)" stroke-width="3" stroke-linecap="round" />
+
+  <circle cy="82" r="4.5" fill="#f8fafc">
+    <animate attributeName="cx" values="260;330;510;580;760;830" dur="4.6s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.25;1;0.25" dur="4.6s" repeatCount="indefinite" />
+  </circle>
+
+  <text x="34" y="140" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="11" letter-spacing="0.2">Automated flow from commit to production release.</text>
+</svg>

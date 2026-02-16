@@ -2,10 +2,18 @@
 
 **We are a student engineering team from FPT Aptech, operating with startup discipline to design, build, and scale real-world software systems.**
 
+<p align="center">
+  <img src="assets/animations/engineering-flow.svg" alt="Animated engineering workflow" width="100%" />
+</p>
+
 We treat every repository as a product asset, every feature as a business decision, and every architecture choice as a long-term investment.
 As students, we focus on turning academic knowledge into production-grade engineering execution.
 
 ## Vision & Mission
+
+<p align="center">
+  <img src="assets/animations/vision-mission.svg" alt="Vision and mission animation" width="100%" />
+</p>
 
 **Vision**  
 Build resilient digital products that solve real operational and user problems at scale.
@@ -22,6 +30,10 @@ Execute with a startup mindset by combining fullstack product development, archi
 - Technical foundations and reusable components for long-term product growth.
 
 ## Engineering Approach
+
+<p align="center">
+  <img src="assets/animations/engineering-approach.svg" alt="Engineering approach animation" width="100%" />
+</p>
 
 - Product mindset first: prioritize business value, user outcomes, and delivery speed.
 - Scalable architecture: design services and modules that can evolve with product demand.
@@ -68,6 +80,10 @@ Execute with a startup mindset by combining fullstack product development, archi
 
 ## Infrastructure & Deployment Strategy
 
+<p align="center">
+  <img src="assets/animations/infrastructure-deployment.svg" alt="Infrastructure and deployment animation" width="100%" />
+</p>
+
 - Containerized workloads with Docker to ensure environment consistency from local to production.
 - GitHub Actions pipelines for automated quality gates, testing, and deployment.
 - AWS-first production architecture for scalable and managed cloud services.
@@ -83,6 +99,10 @@ Execute with a startup mindset by combining fullstack product development, archi
 - Treat security, performance, and maintainability as product features.
 
 ## Future Direction / Roadmap
+
+<p align="center">
+  <img src="assets/animations/roadmap-progress.svg" alt="Roadmap progress animation" width="100%" />
+</p>
 
 - Standardize multi-repository engineering playbooks and reusable templates.
 - Expand CI/CD maturity with stronger automated testing and release governance.
